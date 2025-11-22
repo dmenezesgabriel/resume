@@ -1,0 +1,78 @@
+summary: string
+
+meta:
+  canonical: string
+  updated_at: string
+  version: string
+  changefreq: string
+  priority: number
+  aliases:
+    - string
+
+person:
+  id: string
+  full_name: string
+  image: string
+  roles:
+    - string
+
+problem_domains:
+  - string
+
+keywords:
+  - string
+
+contact:
+  site: string
+  linkedin: string
+
+links:
+  - label: string
+    url: string
+
+experience:
+  - company: string
+    url: string
+    title: string
+    start: string | number
+    end: string | number | null
+    current: boolean
+    summary: string
+    competences:
+      - competence 1
+      - competence 2
+
+education:
+  - school: string
+    start: string | number | null
+    end: string | number | null
+    notes: string | null
+    competences:
+      - competence 1
+      - competence 2
+
+skills:
+  - string
+
+certifications:
+  - name: string
+    issuer: string
+    issued: string | number
+    url: string | null
+
+projects:
+  - title: string
+    summary: string | null
+    start: string | number
+    end: string | number | null
+    highlights:
+      - string
+    url: string | null
+
+languages:
+  - name: string
+    proficiency: string
+    code: string
+
+courses:
+  - name: string

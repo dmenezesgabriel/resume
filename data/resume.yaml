@@ -1,0 +1,263 @@
+summary: >
+  I am a software engineer specializing in backend development with expertise in Python and Node.js. I also have experience in full-stack development, building user interfaces with Next.js and Vue.js. My skills include working with relational databases, implementing infrastructure as code, and leveraging cloud solutions through AWS.
+  </br>
+  </br>
+  Over the past six years, I have focused on developing internal management systems. I adhere to Clean Code practices and SOLID principles to build high-quality, maintainable cloud applications.
+  </br>
+  </br>
+  According to my CliftonStrengths results, I am a Learner, as demonstrated by my constant pursuit of opportunities to gain knowledge, embrace new challenges, explore emerging technologies, and deliver efficient, high-quality solutions.
+
+meta:
+  canonical: "https://example.com/resume"
+  updated_at: "2023-10-27"
+  version: "1.0.0"
+  changefreq: "monthly"
+  priority: 0.8
+  aliases:
+    - "cv"
+
+person:
+  id: ""
+  full_name: "Gabriel Dias Menezes"
+  image: https://avatars.githubusercontent.com/u/50274255?v=4
+  roles:
+    - Senior Software Engineer
+    - Full-Stack Engineer
+    - Back-End focused
+
+problem_domains:
+  - Data-driven applications
+  - Internal management systems
+  - Software Architecture
+
+keywords:
+  - Python
+  - Node.js
+  - Next.js
+  - Angular
+  - AWS
+  - Serverless
+  - Container
+  - Terraform
+  - Datadog
+  - PostgreSQL
+  - Clean Code
+  - SOLID
+  - Software Architecture
+
+contact:
+  site: ""
+  linkedin: https://www.linkedin.com/in/dmenezesgabriel
+
+links:
+  - label: "GitHub"
+    url: "https://github.com/dmenezesgabriel"
+  - label: "Twitter"
+    url: "https://twitter.com/dmenezesgabriel"
+
+experience:
+  - company: "Itaú Unibanco"
+    url: ""
+    title: "Senior Software Engineer"
+    start: "2025-09"
+    end: null
+    current: true
+    summary: >
+      I work in Applied Analytics as a full-stack developer, focusing on increasing the visibility, governance, and observability of machine learning models, as well as generative AI workflows and agents.
+      </br>
+      </br>
+      My responsibilities include designing and delivering serverless, scalable, and data-driven architectures on AWS using services such as API Gateway, Lambda, S3, and Athena within data-lake environments. I build Python APIs and Angular micro-frontends with module federation, and provision all infrastructure through Terraform.
+      </br>
+      </br>
+      I also use CI/CD pipelines with GitHub Actions and ensure robust system and observability using CloudWatch, Datadog, and custom metrics to support resilience, performance, and traceability.
+      </br>
+      </br>
+      Quality is reinforced through comprehensive unit, integration, and end-to-end test suites that support continuous delivery.
+    competences:
+      - Python
+      - Angular
+      - PL/SQL
+      - Serverless
+      - API Gateway
+      - AWS
+      - Data Lake
+      - Terraform
+      - Git & GitHub
+      - GitHub Actions
+      - CI/CD
+      - Datadog
+      - Unit tests
+      - Integration tests
+      - End-to-end tests
+
+  - company: "Itaú Unibanco"
+    url: ""
+    title: "Software Engineer"
+    start: "2021-06"
+    end: "2025-09"
+    current: false
+    summary: >
+      I work in the area of internal technology investment management at Itaú Unibanco, supporting managers with tools that help them manage their resources and generate financial efficiency for the institution.
+      </br>
+      </br>
+      Currently, I am involved in building microservices using Node.js (Fastify), TypeScript, containers, and AWS as the cloud provider. I also develop front-end interfaces using Next.js.
+      </br>
+      </br>
+      I design and provision architecture using Infrastructure as Code (Terraform) and GitHub Actions, with observability through CloudWatch and Datadog.
+      </br>
+      </br>
+      Previous projects include work with Vue.js, Python, PostgreSQL (RDS), containers, and AWS.
+    competences:
+      - Python
+      - Node.js
+      - Next.js
+      - Typescript
+      - PL/SQL
+      - Serverless
+      - Podman
+      - PostgreSQL
+      - Load Balancers
+      - AWS
+      - Terraform
+      - Git & GitHub
+      - GitHub Actions
+      - CI/CD
+      - Datadog
+      - Unit tests
+      - Integration tests
+      - End-to-end tests
+
+  - company: "Pagar.me"
+    url: ""
+    title: "Software Engineer"
+    start: "2019-05"
+    end: "2021-06"
+    current: false
+    summary: >
+      The monitoring team at Pagar.me is primarily responsible for ensuring the operational health of the company by providing visibility into incidents before they impact customers.
+      </br>
+      </br>
+      To support this mission, I delivered the following contributions:
+      </br>
+      Implemented alerts capable of detecting system outages, both internal and across other players in the acquiring market.
+      </br>
+      </br>
+      - Refactored existing alerts, achieving up to 100% reduction in false positives.
+      - Provided visibility into issues previously uncovered, such as bugs introduced during new feature deployments that could have caused significant financial losses if left undetected. I also supported investigations to identify the root causes of operational problems.
+      - Implemented CI/CD pipelines for our microservices.
+      - Improved visibility of internal incidents and reduced response times by integrating our application with Datadog’s log visualization service.
+      </br>
+      </br>
+      Main activities:
+      </br>
+      </br>
+      - Development of new features and refactoring of internal applications in Python
+      - Code review and version control
+      - Development of tools to automate internal processes
+      - Implementation of alerts monitoring business flows
+      - Implementation of alerts monitoring internal applications
+      - Optimization of queries in relational databases
+      - Research on anomaly detection in time series using basic statistical methods
+      - Incident investigation
+
+    competences:
+      - Python
+      - PL/SQL
+      - Docker
+      - PostgreSQL
+      - Redshift
+      - AWS
+      - Terraform
+      - Git & GitHub
+      - CircleCI
+      - CI/CD
+      - Datadog
+      - Unit tests
+
+education:
+  - school: FIAP
+    start: "2023-10"
+    end: "2024-08"
+    notes: "Postgraduate degree in Software Architecture"
+    competences:
+      - Software Architecture
+      - Clean Architecture
+      - Ports & Adapters (Hexagonal Architecture)
+      - Domain-Driven Design
+      - Kubernetes
+      - Docker
+      - CI/CD
+      - Test Pyramid
+      - Python
+      - Terraform
+      - Git & GitHub
+      - GitHub Actions
+      - AWS
+
+  - school: FIAP
+    start: "2021-01"
+    end: "2022-12"
+    notes: >
+      Analysis and Development of Systems. Degree based on real-world projects,
+      system modeling, design thinking, prototyping, and full-stack development
+      of responsive web applications.
+    competences:
+      - Java
+      - Python
+      - React
+      - Database Modeling
+      - PostgreSQL
+      - Oracle
+      - AWS
+
+  - school: Universidade Presbiteriana Mackenzie
+    start: "2011"
+    end: "2015"
+    notes: "Bachelor's degree in Business Administration"
+    competences:
+      - Business Administration
+      - Project Management
+      - Team Management
+      - Communication
+      - Leadership
+      - Marketing
+
+skills:
+  - Software Architecture
+  - Backend
+  - Frontend
+  - JavaScript
+  - TypeScript
+  - Python
+  - Containerization
+  - Infrastructure as Code
+  - CI/CD
+  - AWS
+
+
+certifications:
+  - name: AWS Certified Cloud Practitioner
+    issuer: AWS
+    issued: 2023
+    url: https://www.credly.com/badges/ba76018d-5a15-463b-8e80-b6612db44ba5/linked_in_profile
+
+# projects:
+#   - title: "Open Source Library"
+#     summary: "A popular React component library."
+#     start: "2019"
+#     end: null
+#     highlights:
+#       - "10k+ stars on GitHub"
+#       - "Used by major companies"
+#     url: "https://github.com/johndoe/library"
+
+languages:
+  - name: "English"
+    proficiency: "Fluent"
+    code: "en"
+  - name: "Portuguese"
+    proficiency: "Native"
+    code: "pt-BR"
+
+# courses:
+#   - name: "Advanced React Patterns"
