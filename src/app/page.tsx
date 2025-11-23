@@ -1,4 +1,4 @@
-import { Resume } from '@/components/Resume';
+import { Resume } from '@/components/resume';
 import { getResumeData } from '@/lib/data';
 
 export default async function Home() {

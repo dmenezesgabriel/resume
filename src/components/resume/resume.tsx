@@ -1,10 +1,10 @@
 import { Resume as ResumeType } from '@/lib/schema';
 
-import { Education } from './Education';
-import { Experience } from './Experience';
-import { Header } from './Header';
-import { Projects } from './Projects';
-import { Skills } from './Skills';
+import { Education } from '../education';
+import { Experience } from '../experience';
+import { Header } from '../header';
+import { Projects } from '../projects';
+import { Skills } from '../skills';
 
 interface ResumeProps {
   data: ResumeType;
