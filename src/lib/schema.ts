@@ -19,7 +19,7 @@ export const linkSchema = z.object({
 
 export const experienceSchema = z.object({
   company: z.string(),
-  url: z.string().optional(),
+  url: z.string().nullable().optional(),
   title: z.string(),
   start: z.union([z.string(), z.number()]),
   end: z.union([z.string(), z.number()]).nullable().optional(),
