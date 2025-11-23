@@ -2,12 +2,8 @@ import { describe, expect,it } from 'vitest';
 
 import {
   certificationSchema,
-  contactSchema,
-  courseSchema,
   educationSchema,
   experienceSchema,
-  languageSchema,
-  linkSchema,
   personSchema,
   projectSchema,
   resumeSchema,

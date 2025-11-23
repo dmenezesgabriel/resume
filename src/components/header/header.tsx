@@ -18,6 +18,7 @@ export function Header({ person, contact, links, summary }: HeaderProps) {
       <div className="flex flex-col md:flex-row print:flex-row justify-between items-start md:items-center print:items-center gap-4">
         <div className="flex items-center gap-6">
           {person.image && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={person.image}
               alt={person.full_name}
