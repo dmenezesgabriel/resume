@@ -1,0 +1,1 @@
+export { getResumeData } from './data';
