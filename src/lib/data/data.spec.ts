@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect,it } from 'vitest';
 
 describe('Data Module', () => {
   it('exports getResumeData function', async () => {

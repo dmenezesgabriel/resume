@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { Resume } from './resume';
+import { describe, expect,it } from 'vitest';
+
 import type { Resume as ResumeType } from '@/lib/schema';
+
+import { Resume } from './resume';
 
 describe('Resume Component', () => {
   const mockResumeData: ResumeType = {

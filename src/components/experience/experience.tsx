@@ -1,8 +1,9 @@
-import { Experience as ExperienceType } from '@/lib/schema';
-import Markdown from 'react-markdown';
-import remarkBreaks from 'remark-breaks';
-import rehypeRaw from 'rehype-raw';
 import { Briefcase } from 'lucide-react';
+import Markdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import remarkBreaks from 'remark-breaks';
+
+import { Experience as ExperienceType } from '@/lib/schema';
 import { preprocessMarkdown } from '@/lib/utils';
 
 interface ExperienceProps {

@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { Experience } from './experience';
+import { describe, expect,it } from 'vitest';
+
 import type { Experience as ExperienceType } from '@/lib/schema';
+
+import { Experience } from './experience';
 
 describe('Experience Component', () => {
   const mockExperienceData: ExperienceType[] = [

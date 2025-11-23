@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { Header } from './header';
+import { describe, expect,it } from 'vitest';
+
 import type { Contact, Link, Person } from '@/lib/schema';
+
+import { Header } from './header';
 
 describe('Header Component', () => {
   const mockPerson: Person = {
@@ -155,14 +157,14 @@ describe('Header Component', () => {
   });
 
   it('renders name with high contrast styling', () => {
-    const { container } = render(<Header person={mockPerson} summary={mockSummary} />);
+    render(<Header person={mockPerson} summary={mockSummary} />);
 
     const nameElement = screen.getByText('John Doe');
     expect(nameElement).toHaveClass('text-gray-900');
   });
 
   it('applies correct image sizing classes', () => {
-    const { container } = render(<Header person={mockPerson} summary={mockSummary} />);
+    render(<Header person={mockPerson} summary={mockSummary} />);
 
     const image = screen.getByAltText('John Doe');
     expect(image).toHaveClass('w-24', 'h-24');

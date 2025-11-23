@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { Education } from './education';
+import { describe, expect,it } from 'vitest';
+
 import type { Education as EducationType } from '@/lib/schema';
+
+import { Education } from './education';
 
 describe('Education Component', () => {
   const mockEducationData: EducationType[] = [

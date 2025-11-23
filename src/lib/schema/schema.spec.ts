@@ -1,14 +1,15 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect,it } from 'vitest';
+
 import {
-  personSchema,
-  contactSchema,
-  linkSchema,
-  experienceSchema,
-  educationSchema,
   certificationSchema,
-  projectSchema,
-  languageSchema,
+  contactSchema,
   courseSchema,
+  educationSchema,
+  experienceSchema,
+  languageSchema,
+  linkSchema,
+  personSchema,
+  projectSchema,
   resumeSchema,
 } from './schema';
 

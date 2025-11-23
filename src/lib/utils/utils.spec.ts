@@ -1,4 +1,5 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect,it } from 'vitest';
+
 import { preprocessMarkdown } from './utils';
 
 describe('preprocessMarkdown', () => {
@@ -7,8 +8,8 @@ describe('preprocessMarkdown', () => {
   });
 
   it('returns empty string for null/undefined input', () => {
-    expect(preprocessMarkdown(null as any)).toBe('');
-    expect(preprocessMarkdown(undefined as any)).toBe('');
+    expect(preprocessMarkdown(null as unknown as string)).toBe('');
+    expect(preprocessMarkdown(undefined as unknown as string)).toBe('');
   });
 
   it('replaces HTML br tags with double newlines', () => {

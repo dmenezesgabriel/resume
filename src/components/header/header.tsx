@@ -1,8 +1,9 @@
 import Markdown from 'react-markdown';
-import remarkBreaks from 'remark-breaks';
 import rehypeRaw from 'rehype-raw';
-import { preprocessMarkdown } from '@/lib/utils';
+import remarkBreaks from 'remark-breaks';
+
 import { Contact, Link, Person } from '@/lib/schema';
+import { preprocessMarkdown } from '@/lib/utils';
 
 interface HeaderProps {
   person: Person;

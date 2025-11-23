@@ -1,5 +1,6 @@
-import { Certification, Language } from '@/lib/schema';
 import { Wrench } from 'lucide-react';
+
+import { Certification, Language } from '@/lib/schema';
 
 interface SkillsProps {
   skills?: string[];

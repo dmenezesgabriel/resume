@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:coverage:watch": "vitest --coverage"
+    "test:coverage:watch": "vitest --coverage",
+    "prepare": "husky"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
@@ -38,6 +39,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "husky": "^9.1.7",
     "jsdom": "^27.2.0",
     "tailwindcss": "^4",
     "typescript": "^5",

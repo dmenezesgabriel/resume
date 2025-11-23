@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import { Skills } from './skills';
+import { describe, expect,it } from 'vitest';
+
 import type { Certification, Language } from '@/lib/schema';
+
+import { Skills } from './skills';
 
 describe('Skills Component', () => {
   const mockSkills = ['JavaScript', 'TypeScript', 'React', 'Node.js'];

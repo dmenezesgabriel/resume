@@ -1,5 +1,6 @@
-import { Education as EducationType } from '@/lib/schema';
 import { GraduationCap } from 'lucide-react';
+
+import { Education as EducationType } from '@/lib/schema';
 
 interface EducationProps {
   education: EducationType[];

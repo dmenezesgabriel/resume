@@ -1,0 +1,24 @@
+echo "🔍 Running pre-commit checks..."
+
+# Run linter
+echo "📝 Running linter..."
+pnpm lint || {
+  echo "❌ Linting failed. Please fix the errors before committing."
+  exit 1
+}
+
+# Run type check
+echo "🔧 Running type check..."
+pnpm exec tsc --noEmit || {
+  echo "❌ Type check failed. Please fix the errors before committing."
+  exit 1
+}
+
+# Run tests
+echo "🧪 Running tests..."
+pnpm test || {
+  echo "❌ Tests failed. Please fix the errors before committing."
+  exit 1
+}
+
+echo "✅ All pre-commit checks passed!"
