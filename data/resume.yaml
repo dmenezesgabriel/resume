@@ -63,7 +63,7 @@ experience:
     end: null
     current: true
     summary: >
-      I work in Applied Analytics as a full-stack developer, focusing on increasing the visibility, governance, and observability of machine learning models, as well as generative AI workflows and agents.
+      I work in Applied Analytics department as a full-stack developer, focusing on increasing the visibility, governance, and observability of machine learning models, as well as generative AI workflows and agents.
       </br>
       </br>
       My responsibilities include designing and delivering serverless, scalable, and data-driven architectures on AWS using services such as API Gateway, Lambda, S3, and Athena within data-lake environments. I build Python APIs and Angular micro-frontends with module federation, and provision all infrastructure through Terraform.
